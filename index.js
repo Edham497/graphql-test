@@ -18,7 +18,7 @@ const schema = makeExecutableSchema({
 })
 
 app.get('/', (req, res) => {
-    res.send('Servidor feo')
+    res.send('HEctor es puto')
 })
 app.use('/graphql', graphqlExpress({ schema }))
 app.use('/graphiql', graphiqlExpress({ endpointURL: '/graphql' }));
